@@ -1,14 +1,260 @@
-<h1 align="center">Hi 👋, I'm Eric</h1>
-<h3 align="center">Computer Science student at Cesar School</h3>
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=eric-cesar&label=Profile%20views&color=0e75b6&style=flat" alt="eric-cesar" /> </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de Eric Gonçalves Albuquerque</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-- 🔭 I’m currently working on [Emotion Tree](https://github.com/eric-cesar/ProjetoG1)
+    <style>
+        /* Definindo a fonte e o estilo geral da página */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/eric-albuquerque-794334282/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/eric-albuquerque-794334282/" height="30" width="40" /></a>
-</p>
+        /* Contêiner centralizado com espaçamento e borda suave */
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://canvasjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Hardik0307/Hardik0307/master/assets/canvasjs-charts.svg" alt="canvasjs" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://github.com/puppeteer/puppeteer" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" alt="puppeteer" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+        /* Cabeçalho com fundo gradiente */
+        h1 {
+            text-align: center;
+            color: #fff;
+            background: linear-gradient(to right, #00bcd4, #009688, #00796b);
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #fff;
+            background: linear-gradient(to right, #00bcd4, #009688, #00796b);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 0;
+        }
+
+        /* Seções do currículo */
+        .contact-info,
+        .education,
+        .skills,
+        .languages,
+        .interests,
+        .experience,
+        .volunteering,
+        .competence,
+        .projects {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background-color: #e0e0e0;
+            border-radius: 4px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        .progress {
+            height: 100%;
+            border-radius: 4px;
+        }
+
+        .java {
+            width: 75%;
+            background-color: #4caf50;
+        }
+
+        .javascript {
+            width: 90%;
+            background-color: #f44336;
+        }
+
+        .python {
+            width: 85%;
+            background-color: #2196f3;
+        }
+
+        .c {
+            width: 65%;
+            background-color: #ff9800;
+        }
+
+        .machine-learning {
+            width: 60%;
+            background-color: #9c27b0;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        /* Estilos responsivos para dispositivos móveis */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .progress-bar {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Título com objetivo profissional -->
+        <h1>Eric Gonçalves Albuquerque</h1>
+
+        <!-- Seção de Contato -->
+        <div class="contact-info">
+            <h2>Contato</h2>
+            <p><i class="fas fa-envelope"></i> <a
+                    href="mailto:eric.albuquerque02@gmail.com">eric.albuquerque02@gmail.com</a></p>
+            <p><i class="fas fa-phone"></i> <strong>WhatsApp:</strong> (81) 99790-7837</p>
+            <p><i class="fab fa-github"></i> <strong>GitHub:</strong> <a href="https://github.com/eric-cesar"
+                    target="_blank">eric-cesar</a></p>
+            <p><i class="fas fa-map-marker-alt"></i> Recife, Pernambuco</p>
+        </div>
+
+        <!-- Seção de Formação Acadêmica -->
+        <div class="education">
+            <h2>Formação Acadêmica</h2>
+            <p><strong>2024-08 - Atualmente:</strong> Ciência da Computação - Cesar School, Recife, Pernambuco</p>
+            <p><strong>2020-03 - 2024-07:</strong> Engenharia da Computação - Poli - UPE, Recife, Pernambuco</p>
+            <p><strong>2017-02 - 2019-12:</strong> Colégio Cognitivo, Recife, Pernambuco</p>
+        </div>
+
+        <!-- Seção de Habilidades -->
+        <!-- Seção de Habilidades -->
+        <div class="skills">
+            <h2>Habilidades</h2>
+            <p><strong>Determinação e persistência para o alcance de metas</strong></p>
+            <p><strong>Disposição para o aprendizado e aprimoramento contínuos</strong></p>
+            <p><strong>Responsabilidade e autonomia para realização de trabalho remoto</strong></p>
+            <p><strong>Comunicação eficiente com a equipe</strong></p>
+            <p><strong>Proatividade e iniciativa para resolução de problemas</strong></p>
+            <p><strong>Desenvolvimento de simulações 2D e 3D</strong></p>
+            <p><strong>Desenvolvimento de jogos</strong></p>
+            <p><strong>Análise de dados</strong></p>
+
+        </div>
+        <div class="competence">
+            <h2>Competências</h2>
+
+            <div class="skill-item">
+                <p><strong>Java</strong></p>
+                <div class="progress-bar">
+                    <div class="progress java"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <p><strong>JavaScript</strong></p>
+                <div class="progress-bar">
+                    <div class="progress javascript"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <p><strong>Python</strong></p>
+                <div class="progress-bar">
+                    <div class="progress python"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <p><strong>C</strong></p>
+                <div class="progress-bar">
+                    <div class="progress c"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <p><strong>Machine Learning</strong></p>
+                <div class="progress-bar">
+                    <div class="progress machine-learning"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de Idiomas -->
+        <div class="languages">
+            <h2>Idiomas</h2>
+            <p><strong>Português:</strong> Nativo</p>
+            <p><strong>Inglês:</strong> Intermediário superior</p>
+        </div>
+
+        <!-- Seção de Cursos Extras -->
+        <div class="courses">
+            <h2>Cursos Extras</h2>
+            <ul>
+                <li><strong>Redes Neurais: Deep Learning com PyTorch (Alura)</strong></li>
+                <li><strong>Certificação Java SE 8 e Java SE 7 (Alura)</strong></li>
+                <li><strong>Python avançado (Alura)</strong></li>
+                <li><strong>HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags (Alura)</strong></li>
+                <li><strong>JavaScript: programação orientada a objetos (Alura)</strong></li>
+                <li><strong>Node.js (Alura)</strong></li>
+                <li><strong>Arquitetura de computadores: por trás de como seu programa funciona (Alura)</strong></li>
+            </ul>
+        </div>
+
+        <!-- Seção de Interesses -->
+        <div class="interests">
+            <h2>Interesses</h2>
+            <p>Estou interessado em expandir meus conhecimentos nas áreas de machine learning, análise de dados,
+                cibersegurança e computação gráfica, buscando sempre aplicar a inteligência artificial para a análise e
+                proteção de informações, além de criar visualizações interativas.</p>
+        </div>
+
+        <!-- Seção de Experiência -->
+        <div class="experience">
+            <h2>Experiência</h2>
+            <ul>
+                <li><strong>Ideathon Real Hospital Português 2024:</strong> Participação em um projeto de ideação focado
+                    na otimização da gestão de leitos.</li>
+                <li><strong>Gerdau:</strong> Criação de um sistema de controle de produção para otimização de processos.
+                </li>
+                <li><strong>Secretaria da Fazenda:</strong> Desenvolvimento de software de coleta de dados via Web
+                    Scraping.</li>
+                <li><strong>Robótica:</strong> Participação na MNR 2014-2016.</li>
+
+            </ul>
+        </div>
+
+        <!-- Rodapé -->
+        <div class="footer">
+            <p>Currículo atualizado em novembro de 2024.</p>
+        </div>
+    </div>
+</body>
+
+</html>
