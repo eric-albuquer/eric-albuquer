@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Eric</h1>
-<h3 align="center">Computer Science student at Cesar School</h3>
+<h3 align="center">Computer Science student at Cesar School, I love doing physical simulations, studying algorithms and AI</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=eric-cesar&label=Profile%20views&color=0e75b6&style=flat" alt="eric-cesar" /> </p>
 
