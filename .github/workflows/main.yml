@@ -1,8 +1,8 @@
 name: Generate Datas
 
 on:
-  schedule: # Executa a cada 12 horas
-    - cron: "0 */12 * * *" # Note que o padrão correto de cron é "minuto hora dia mês dia-semana"
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
   workflow_dispatch:
 
 jobs:
@@ -10,22 +10,16 @@ jobs:
     name: Jobs to update datas
     runs-on: ubuntu-latest
     steps:
-      # Configuração do repositório
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      # Geração da animação Snake
-      - name: Generate Snake Animation
-        uses: Platane/snk@master
+      # Snake Animation
+      - uses: Platane/snk@master
+        id: snake-gif
         with:
           github_user_name: eric-cesar
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      # Publicação no GitHub Pages
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2.1.3
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
-          target_branch: gh-pages # ou "output", dependendo da configuração do seu Pages
+          target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
