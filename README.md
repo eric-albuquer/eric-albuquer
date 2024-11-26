@@ -3,7 +3,10 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=eric-cesar&label=Profile%20views&color=0e75b6&style=flat" alt="eric-cesar" /> </p>
 
-- 🔭 I’m currently working on [Emotion Tree](https://github.com/eric-cesar/ProjetoG1)
+- 🔭 I’m currently working on:
+-  [Emotion Tree](https://github.com/eric-cesar/ProjetoG1)
+-  [Simulations](https://github.com/eric-cesar/Simulations)
+-  [Games](https://github.com/eric-cesar/Games)
 
 <h3 align="left">Connect with me:</h3>
 <div>
